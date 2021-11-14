@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "squidcoder:copper_ingot"
+    },
+    "a": {
+      "item": "squidcoder:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "squidcoder:spyglass"
+  }
+}

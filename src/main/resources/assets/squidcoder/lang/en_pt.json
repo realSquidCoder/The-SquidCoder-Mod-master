@@ -1,0 +1,16 @@
+{
+  "block.squidcoder.silver_block": "Block o' Silver",
+  "block.squidcoder.silver_ore": "Silver Ore",
+  "block.squidcoder.copper_block": "Block o' Copper",
+  "block.squidcoder.copper_ore": "Copper Ore",
+  "block.squidcoder.dummy_block": "Arrgh matey! You ain't supposed to be havin' that thar block.",
+
+  "item.squidcoder.silver_ingot": "Silver Bullion",
+  "item.squidcoder.silver_dust": "Silver Dust",
+  "item.squidcoder.silver_nugget": "Nugget o' Silver",
+  "item.squidcoder.copper_ingot": "Copper Bullion",
+  "item.squidcoder.raw_iron": "Raw Iron",
+  "item.squidcoder.raw_gold": "Raw Gold",
+  
+  "itemGroup.squidcoderModTab": "The SquidCoder Mod"
+}

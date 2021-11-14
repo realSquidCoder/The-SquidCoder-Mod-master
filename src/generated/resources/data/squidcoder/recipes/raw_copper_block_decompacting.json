@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "squidcoder:raw_copper_block"
+    }
+  ],
+  "result": {
+    "item": "squidcoder:raw_copper",
+    "count": 9
+  }
+}

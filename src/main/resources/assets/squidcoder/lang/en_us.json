@@ -1,0 +1,32 @@
+{
+  "block.squidcoder.silver_block": "Block of Silver",
+
+  "block.squidcoder.copper_block": "Block of Copper",
+  "block.squidcoder.exposed_copper": "Exposed Copper",
+  "block.squidcoder.weathered_copper": "Weathered Copper",
+  "block.squidcoder.oxidized_copper": "Oxidized Copper",
+
+  "block.squidcoder.waxed_copper_block": "Waxed Block of Copper",
+  "block.squidcoder.waxed_exposed_copper": "Waxed Exposed Copper",
+  "block.squidcoder.waxed_weathered_copper": "Waxed Weathered Copper",
+  "block.squidcoder.waxed_oxidized_copper": "Waxed Oxidized Copper",
+
+  "block.squidcoder.silver_ore": "Silver Ore",
+  "block.squidcoder.copper_ore": "Copper Ore",
+  "block.squidcoder.dummy_block": "This block shouldn't be in the full release, how did you get it?",
+  "item.squidcoder.silver_ingot": "Silver Ingot",
+  "item.squidcoder.copper_ingot": "Copper Ingot",
+  "item.squidcoder.raw_iron": "Raw Iron",
+  "item.squidcoder.raw_gold": "Raw Gold",
+  "item.squidcoder.raw_copper": "Raw Copper",
+  "item.squidcoder.raw_iron_block": "Block of Raw Iron",
+  "item.squidcoder.raw_gold_block": "Block of Raw Gold",
+  "item.squidcoder.raw_copper_block": "Block of Raw Copper",
+  "item.squidcoder.silver_dust": "Silver Dust",
+  "item.squidcoder.silver_nugget": "Silver Nugget",
+  "item.squidcoder.amethyst_shard": "Amethyst Shard",
+  "item.squidcoder.lightning_rod": "Lightning Rod",
+  "item.squidcoder.spyglass": "Spyglass",
+  "itemGroup.squidcoder_modtab": "The SquidCoder Mod",
+  "itemGroup.caves_and_cliffs_modtab": "Caves & Cliffs Backport"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "squidcoder:copper_ore"
+  },
+  "result": "squidcoder:copper_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

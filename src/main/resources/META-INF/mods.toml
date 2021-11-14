@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]]
+    # The modid of the mod
+    modId="squidcoder"
+    version="${file.jarVersion}"
+    displayName="The SquidCoder Mod"
+    #See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
+    #updateJSONURL="https://change.me.example.invalid/updates.json"
+    #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+    logoFile="SquidCoderLogo.png"
+    credits="Thanks for the tutorials SilentChaos512 & Kaupenjoe :) "
+    authors="SquidCoder"
+    description='''This is a mod that I am messing around with. It is currently being used to attempt to backport Minecraft 1.17 into 1.16. I have too much time on my hands...'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.squidcoder]]
+    # the modid of the dependency
+    modId="forge"
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true
+    # The version range of the dependency
+    versionRange="[36,)"
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.squidcoder]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.4,1.17)" #Mod written with 1.16.5 in mind, but 16.4 and 16.5 are the same where it matters
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,4441 @@
+{
+  "block.amethyst_block.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/break1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/break2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/break3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/break4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.amethyst_block.chime": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/shimmer",
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.block.amethyst_block.chime"
+  },
+  "block.amethyst_block.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step14",
+        "volume": 1
+      }
+    ]
+  },
+  "block.amethyst_block.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.amethyst_block.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/place1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/place2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/place3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/place4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.amethyst_block.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step13",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step14",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.amethyst_cluster.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/break1",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break2",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break3",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break4",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.amethyst_cluster.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step14",
+        "volume": 1
+      }
+    ]
+  },
+  "block.amethyst_cluster.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.amethyst_cluster.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/place1",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place2",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place3",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place4",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.amethyst_cluster.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step6",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step7",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step8",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step9",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step10",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step11",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step12",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step13",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/amethyst/step14",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.azalea.break": {
+    "sounds": [
+      "squidcoder:block/azalea/break1",
+      "squidcoder:block/azalea/break2",
+      "squidcoder:block/azalea/break3",
+      "squidcoder:block/azalea/break4",
+      "squidcoder:block/azalea/break5",
+      "squidcoder:block/azalea/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.azalea.fall": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ]
+  },
+  "block.azalea.hit": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.azalea.place": {
+    "sounds": [
+      "squidcoder:block/azalea/break1",
+      "squidcoder:block/azalea/break2",
+      "squidcoder:block/azalea/break3",
+      "squidcoder:block/azalea/break4",
+      "squidcoder:block/azalea/break5",
+      "squidcoder:block/azalea/break6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.azalea.step": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.azalea_leaves.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/azalea_leaves/break1",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break2",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break3",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break4",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break5",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break6",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break7",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break1",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break2",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break3",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break4",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break5",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break6",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break7",
+        "volume": 0.85,
+        "pitch": 0.92
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.azalea_leaves.fall": {
+    "sounds": [
+      "squidcoder:block/azalea_leaves/step1",
+      "squidcoder:block/azalea_leaves/step2",
+      "squidcoder:block/azalea_leaves/step3",
+      "squidcoder:block/azalea_leaves/step4",
+      "squidcoder:block/azalea_leaves/step5"
+    ]
+  },
+  "block.azalea_leaves.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/azalea_leaves/step1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step3",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step4",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step5",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.azalea_leaves.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/azalea_leaves/break1",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break2",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break3",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break4",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break5",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break6",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break7",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break1",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break2",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break3",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break4",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break5",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break6",
+        "volume": 0.85,
+        "pitch": 0.92
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/break7",
+        "volume": 0.85,
+        "pitch": 0.92
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.azalea_leaves.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/azalea_leaves/step1",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step2",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step3",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step4",
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/azalea_leaves/step5",
+        "volume": 0.85
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.big_dripleaf.break": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/break1",
+      "squidcoder:block/big_dripleaf/break2",
+      "squidcoder:block/big_dripleaf/break3",
+      "squidcoder:block/big_dripleaf/break4",
+      "squidcoder:block/big_dripleaf/break5",
+      "squidcoder:block/big_dripleaf/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.big_dripleaf.fall": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/step1",
+      "squidcoder:block/big_dripleaf/step2",
+      "squidcoder:block/big_dripleaf/step3",
+      "squidcoder:block/big_dripleaf/step4",
+      "squidcoder:block/big_dripleaf/step5",
+      "squidcoder:block/big_dripleaf/step6"
+    ]
+  },
+  "block.big_dripleaf.hit": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/step1",
+      "squidcoder:block/big_dripleaf/step2",
+      "squidcoder:block/big_dripleaf/step3",
+      "squidcoder:block/big_dripleaf/step4",
+      "squidcoder:block/big_dripleaf/step5",
+      "squidcoder:block/big_dripleaf/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.big_dripleaf.place": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/break1",
+      "squidcoder:block/big_dripleaf/break2",
+      "squidcoder:block/big_dripleaf/break3",
+      "squidcoder:block/big_dripleaf/break4",
+      "squidcoder:block/big_dripleaf/break5",
+      "squidcoder:block/big_dripleaf/break6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.big_dripleaf.step": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/step1",
+      "squidcoder:block/big_dripleaf/step2",
+      "squidcoder:block/big_dripleaf/step3",
+      "squidcoder:block/big_dripleaf/step4",
+      "squidcoder:block/big_dripleaf/step5",
+      "squidcoder:block/big_dripleaf/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.big_dripleaf.tilt_down": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/tilt_down1",
+      "squidcoder:block/big_dripleaf/tilt_down2",
+      "squidcoder:block/big_dripleaf/tilt_down3",
+      "squidcoder:block/big_dripleaf/tilt_down4",
+      "squidcoder:block/big_dripleaf/tilt_down5"
+    ],
+    "subtitle": "subtitles.block.big_dripleaf.tilt_down"
+  },
+  "block.big_dripleaf.tilt_up": {
+    "sounds": [
+      "squidcoder:block/big_dripleaf/tilt_up1",
+      "squidcoder:block/big_dripleaf/tilt_up2",
+      "squidcoder:block/big_dripleaf/tilt_up3",
+      "squidcoder:block/big_dripleaf/tilt_up4"
+    ],
+    "subtitle": "subtitles.block.big_dripleaf.tilt_up"
+  },
+  "block.cake.add_candle": {
+    "sounds": [
+      "squidcoder:block/cake/add_candle1",
+      "squidcoder:block/cake/add_candle2",
+      "squidcoder:block/cake/add_candle3"
+    ],
+    "subtitle": "subtitles.block.cake.add_candle"
+  },
+  "block.calcite.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/calcite/break1",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/calcite/break2",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/calcite/break3",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/calcite/break4",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.calcite.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/calcite/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step6",
+        "volume": 1
+      }
+    ]
+  },
+  "block.calcite.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/calcite/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.calcite.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/calcite/place1",
+        "volume": 0.94
+      },
+      {
+        "name": "squidcoder:block/calcite/place2",
+        "volume": 0.94
+      },
+      {
+        "name": "squidcoder:block/calcite/place3",
+        "volume": 0.94
+      },
+      {
+        "name": "squidcoder:block/calcite/place4",
+        "volume": 0.94
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.calcite.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/calcite/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/calcite/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.candle.ambient": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/candle/ambient1",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient2",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient3",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient4",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient5",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient6",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient7",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient8",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient9",
+        "attenuation_distance": 3,
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:block/candle/ambient1",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient2",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient3",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient4",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient5",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient6",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient7",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient8",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient9",
+        "attenuation_distance": 3,
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/ambient1",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient2",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient3",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient4",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient5",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient6",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient7",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient8",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/ambient9",
+        "attenuation_distance": 3,
+        "volume": 1,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.block.candle.crackle"
+  },
+  "block.candle.break": {
+    "sounds": [
+      "squidcoder:block/candle/break1",
+      "squidcoder:block/candle/break2",
+      "squidcoder:block/candle/break3",
+      "squidcoder:block/candle/break4",
+      "squidcoder:block/candle/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.candle.extinguish": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 1,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish1",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish2",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/candle/extinguish3",
+        "attenuation_distance": 8,
+        "volume": 0.9,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fire.extinguish"
+  },
+  "block.candle.fall": {
+    "sounds": [
+      "squidcoder:block/candle/step1",
+      "squidcoder:block/candle/step2",
+      "squidcoder:block/candle/step3",
+      "squidcoder:block/candle/step4",
+      "squidcoder:block/candle/step5"
+    ]
+  },
+  "block.candle.hit": {
+    "sounds": [
+      "squidcoder:block/candle/step1",
+      "squidcoder:block/candle/step2",
+      "squidcoder:block/candle/step3",
+      "squidcoder:block/candle/step4",
+      "squidcoder:block/candle/step5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.candle.place": {
+    "sounds": [
+      "squidcoder:block/candle/break1",
+      "squidcoder:block/candle/break2",
+      "squidcoder:block/candle/break3",
+      "squidcoder:block/candle/break4",
+      "squidcoder:block/candle/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.candle.step": {
+    "sounds": [
+      "squidcoder:block/candle/step1",
+      "squidcoder:block/candle/step2",
+      "squidcoder:block/candle/step3",
+      "squidcoder:block/candle/step4",
+      "squidcoder:block/candle/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.cave_vines.break": {
+    "sounds": [
+      "squidcoder:block/cave_vines/break1",
+      "squidcoder:block/cave_vines/break2",
+      "squidcoder:block/cave_vines/break3",
+      "squidcoder:block/cave_vines/break4",
+      "squidcoder:block/cave_vines/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.cave_vines.fall": {
+    "sounds": [
+      "squidcoder:block/vine/climb1",
+      "squidcoder:block/vine/climb2",
+      "squidcoder:block/vine/climb3",
+      "squidcoder:block/vine/climb4",
+      "squidcoder:block/vine/climb5"
+    ]
+  },
+  "block.cave_vines.hit": {
+    "sounds": [
+      "squidcoder:block/vine/climb1",
+      "squidcoder:block/vine/climb2",
+      "squidcoder:block/vine/climb3",
+      "squidcoder:block/vine/climb4",
+      "squidcoder:block/vine/climb5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.cave_vines.pick_berries": {
+    "sounds": [
+      {
+        "name": "block.sweet_berry_bush.pick_berries",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.sweet_berry_bush.pick_berries"
+  },
+  "block.cave_vines.place": {
+    "sounds": [
+      "squidcoder:block/cave_vines/break1",
+      "squidcoder:block/cave_vines/break2",
+      "squidcoder:block/cave_vines/break3",
+      "squidcoder:block/cave_vines/break4",
+      "squidcoder:block/cave_vines/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.cave_vines.step": {
+    "sounds": [
+      "squidcoder:block/vine/climb1",
+      "squidcoder:block/vine/climb2",
+      "squidcoder:block/vine/climb3",
+      "squidcoder:block/vine/climb4",
+      "squidcoder:block/vine/climb5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.copper.break": {
+    "sounds": [
+      "squidcoder:block/copper/break1",
+      "squidcoder:block/copper/break2",
+      "squidcoder:block/copper/break3",
+      "squidcoder:block/copper/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.copper.fall": {
+    "sounds": [
+      "squidcoder:block/copper/step1",
+      "squidcoder:block/copper/step2",
+      "squidcoder:block/copper/step3",
+      "squidcoder:block/copper/step4",
+      "squidcoder:block/copper/step5",
+      "squidcoder:block/copper/step6"
+    ]
+  },
+  "block.copper.hit": {
+    "sounds": [
+      "squidcoder:block/copper/step1",
+      "squidcoder:block/copper/step2",
+      "squidcoder:block/copper/step3",
+      "squidcoder:block/copper/step4",
+      "squidcoder:block/copper/step5",
+      "squidcoder:block/copper/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.copper.place": {
+    "sounds": [
+      "squidcoder:block/copper/break1",
+      "squidcoder:block/copper/break2",
+      "squidcoder:block/copper/break3",
+      "squidcoder:block/copper/break4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.copper.step": {
+    "sounds": [
+      "squidcoder:block/copper/step1",
+      "squidcoder:block/copper/step2",
+      "squidcoder:block/copper/step3",
+      "squidcoder:block/copper/step4",
+      "squidcoder:block/copper/step5",
+      "squidcoder:block/copper/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate.break": {
+    "sounds": [
+      "squidcoder:block/deepslate/break1",
+      "squidcoder:block/deepslate/break2",
+      "squidcoder:block/deepslate/break3",
+      "squidcoder:block/deepslate/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate.fall": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ]
+  },
+  "block.deepslate.hit": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate.place": {
+    "sounds": [
+      "squidcoder:block/deepslate/place1",
+      "squidcoder:block/deepslate/place2",
+      "squidcoder:block/deepslate/place3",
+      "squidcoder:block/deepslate/place4",
+      "squidcoder:block/deepslate/place5",
+      "squidcoder:block/deepslate/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate.step": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate_bricks.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/place1",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place2",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place3",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place4",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place5",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place6",
+        "pitch": 1,
+        "volume": 0.85
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate_bricks.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 1
+      }
+    ]
+  },
+  "block.deepslate_bricks.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate_bricks.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/place1",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place2",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place3",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place4",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place5",
+        "pitch": 1,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place6",
+        "pitch": 1,
+        "volume": 0.85
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate_bricks.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate_tiles.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/place1",
+        "pitch": 1.3,
+        "volume": 0.92
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place2",
+        "pitch": 1.3,
+        "volume": 0.92
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place3",
+        "pitch": 1.3,
+        "volume": 0.92
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place4",
+        "pitch": 1.3,
+        "volume": 0.92
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place5",
+        "pitch": 1.3,
+        "volume": 0.92
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place6",
+        "pitch": 1.3,
+        "volume": 0.92
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate_tiles.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.deepslate_tiles.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 1.3
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate_tiles.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/place1",
+        "pitch": 1.2,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place2",
+        "pitch": 1.2,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place3",
+        "pitch": 1.2,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place4",
+        "pitch": 1.2,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place5",
+        "pitch": 1.2,
+        "volume": 0.85
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/place6",
+        "pitch": 1.2,
+        "volume": 0.85
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate_tiles.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/deepslate_bricks/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/deepslate_bricks/step5",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.dripstone_block.break": {
+    "sounds": [
+      "squidcoder:block/dripstone/break1",
+      "squidcoder:block/dripstone/break2",
+      "squidcoder:block/dripstone/break3",
+      "squidcoder:block/dripstone/break4",
+      "squidcoder:block/dripstone/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.dripstone_block.fall": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ]
+  },
+  "block.dripstone_block.hit": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.dripstone_block.place": {
+    "sounds": [
+      "squidcoder:block/dripstone/break1",
+      "squidcoder:block/dripstone/break2",
+      "squidcoder:block/dripstone/break3",
+      "squidcoder:block/dripstone/break4",
+      "squidcoder:block/dripstone/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.dripstone_block.step": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.flowering_azalea.break": {
+    "sounds": [
+      "squidcoder:block/azalea/break1",
+      "squidcoder:block/azalea/break2",
+      "squidcoder:block/azalea/break3",
+      "squidcoder:block/azalea/break4",
+      "squidcoder:block/azalea/break5",
+      "squidcoder:block/azalea/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.flowering_azalea.fall": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ]
+  },
+  "block.flowering_azalea.hit": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.flowering_azalea.place": {
+    "sounds": [
+      "squidcoder:block/azalea/break1",
+      "squidcoder:block/azalea/break2",
+      "squidcoder:block/azalea/break3",
+      "squidcoder:block/azalea/break4",
+      "squidcoder:block/azalea/break5",
+      "squidcoder:block/azalea/break6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.flowering_azalea.step": {
+    "sounds": [
+      "squidcoder:block/azalea/step1",
+      "squidcoder:block/azalea/step2",
+      "squidcoder:block/azalea/step3",
+      "squidcoder:block/azalea/step4",
+      "squidcoder:block/azalea/step5",
+      "squidcoder:block/azalea/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.hanging_roots.break": {
+    "sounds": [
+      "squidcoder:block/hanging_roots/break1",
+      "squidcoder:block/hanging_roots/break2",
+      "squidcoder:block/hanging_roots/break3",
+      "squidcoder:block/hanging_roots/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.hanging_roots.fall": {
+    "sounds": [
+      "squidcoder:block/hanging_roots/step1",
+      "squidcoder:block/hanging_roots/step2",
+      "squidcoder:block/hanging_roots/step3",
+      "squidcoder:block/hanging_roots/step4",
+      "squidcoder:block/hanging_roots/step5",
+      "squidcoder:block/hanging_roots/step6"
+    ]
+  },
+  "block.hanging_roots.hit": {
+    "sounds": [
+      "squidcoder:block/hanging_roots/step1",
+      "squidcoder:block/hanging_roots/step2",
+      "squidcoder:block/hanging_roots/step3",
+      "squidcoder:block/hanging_roots/step4",
+      "squidcoder:block/hanging_roots/step5",
+      "squidcoder:block/hanging_roots/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.hanging_roots.place": {
+    "sounds": [
+      "squidcoder:block/hanging_roots/break1",
+      "squidcoder:block/hanging_roots/break2",
+      "squidcoder:block/hanging_roots/break3",
+      "squidcoder:block/hanging_roots/break4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.hanging_roots.step": {
+    "sounds": [
+      "squidcoder:block/hanging_roots/step1",
+      "squidcoder:block/hanging_roots/step2",
+      "squidcoder:block/hanging_roots/step3",
+      "squidcoder:block/hanging_roots/step4",
+      "squidcoder:block/hanging_roots/step5",
+      "squidcoder:block/hanging_roots/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.large_amethyst_bud.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/break1",
+        "pitch": 0.85,
+        "volume": 0.7
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break2",
+        "pitch": 0.85,
+        "volume": 0.7
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break3",
+        "pitch": 0.85,
+        "volume": 0.7
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break4",
+        "pitch": 0.85,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.large_amethyst_bud.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/place1",
+        "volume": 0.75
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place2",
+        "volume": 0.75
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place3",
+        "volume": 0.75
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place4",
+        "volume": 0.75
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.medium_amethyst_bud.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/break1",
+        "pitch": 0.95,
+        "volume": 0.55
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break2",
+        "pitch": 0.95,
+        "volume": 0.55
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break3",
+        "pitch": 0.95,
+        "volume": 0.55
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break4",
+        "pitch": 0.95,
+        "volume": 0.55
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.medium_amethyst_bud.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/place1",
+        "pitch": 1.1,
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place2",
+        "pitch": 1.1,
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place3",
+        "pitch": 1.1,
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place4",
+        "pitch": 1.1,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.moss.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/break1",
+        "volume": 0.95
+      },
+      {
+        "name": "squidcoder:block/moss/break2",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break3",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break4",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break5",
+        "volume": 0.93
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.moss.fall": {
+    "sounds": [
+      "squidcoder:block/moss/step1",
+      "squidcoder:block/moss/step2",
+      "squidcoder:block/moss/step3",
+      "squidcoder:block/moss/step4",
+      "squidcoder:block/moss/step5",
+      "squidcoder:block/moss/step6"
+    ]
+  },
+  "block.moss.hit": {
+    "sounds": [
+      "squidcoder:block/moss/step1",
+      "squidcoder:block/moss/step2",
+      "squidcoder:block/moss/step3",
+      "squidcoder:block/moss/step4",
+      "squidcoder:block/moss/step5",
+      "squidcoder:block/moss/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.moss.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/break1",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break2",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break3",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break4",
+        "volume": 0.93
+      },
+      {
+        "name": "squidcoder:block/moss/break5",
+        "volume": 0.93
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.moss.step": {
+    "sounds": [
+      "squidcoder:block/moss/step1",
+      "squidcoder:block/moss/step2",
+      "squidcoder:block/moss/step3",
+      "squidcoder:block/moss/step4",
+      "squidcoder:block/moss/step5",
+      "squidcoder:block/moss/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.moss_carpet.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/break1",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break2",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break3",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break4",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break5",
+        "volume": 0.9,
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.moss_carpet.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/step1",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step2",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step3",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step4",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step5",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step6",
+        "volume": 0.9,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "block.moss_carpet.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/step1",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step2",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step3",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step4",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step5",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step6",
+        "volume": 0.9,
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.moss_carpet.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/break1",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break2",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break3",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break4",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/break5",
+        "volume": 0.9,
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.moss_carpet.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/moss/step1",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step2",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step3",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step4",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step5",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:block/moss/step6",
+        "volume": 0.9,
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.pointed_dripstone.break": {
+    "sounds": [
+      "squidcoder:block/dripstone/break1",
+      "squidcoder:block/dripstone/break2",
+      "squidcoder:block/dripstone/break3",
+      "squidcoder:block/dripstone/break4",
+      "squidcoder:block/dripstone/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.pointed_dripstone.drip_lava": {
+    "sounds": [
+      "squidcoder:block/pointed_dripstone/drip_lava1",
+      "squidcoder:block/pointed_dripstone/drip_lava2",
+      "squidcoder:block/pointed_dripstone/drip_lava3",
+      "squidcoder:block/pointed_dripstone/drip_lava4",
+      "squidcoder:block/pointed_dripstone/drip_lava5",
+      "squidcoder:block/pointed_dripstone/drip_lava6"
+    ],
+    "subtitle": "subtitles.block.pointed_dripstone.drip_lava"
+  },
+  "block.pointed_dripstone.drip_lava_into_cauldron": {
+    "sounds": [
+      "squidcoder:block/pointed_dripstone/drip_lava_cauldron1",
+      "squidcoder:block/pointed_dripstone/drip_lava_cauldron2",
+      "squidcoder:block/pointed_dripstone/drip_lava_cauldron3",
+      "squidcoder:block/pointed_dripstone/drip_lava_cauldron4"
+    ],
+    "subtitle": "subtitles.block.pointed_dripstone.drip_lava_into_cauldron"
+  },
+  "block.pointed_dripstone.drip_water": {
+    "sounds": [
+      "squidcoder:block/pointed_dripstone/drip_water1",
+      "squidcoder:block/pointed_dripstone/drip_water2",
+      "squidcoder:block/pointed_dripstone/drip_water3",
+      "squidcoder:block/pointed_dripstone/drip_water4",
+      "squidcoder:block/pointed_dripstone/drip_water5",
+      "squidcoder:block/pointed_dripstone/drip_water6",
+      "squidcoder:block/pointed_dripstone/drip_water7",
+      "squidcoder:block/pointed_dripstone/drip_water8",
+      "squidcoder:block/pointed_dripstone/drip_water9",
+      "squidcoder:block/pointed_dripstone/drip_water10",
+      "squidcoder:block/pointed_dripstone/drip_water11",
+      "squidcoder:block/pointed_dripstone/drip_water12",
+      "squidcoder:block/pointed_dripstone/drip_water13",
+      "squidcoder:block/pointed_dripstone/drip_water14",
+      "squidcoder:block/pointed_dripstone/drip_water15"
+    ],
+    "subtitle": "subtitles.block.pointed_dripstone.drip_water"
+  },
+  "block.pointed_dripstone.drip_water_into_cauldron": {
+    "sounds": [
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron1",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron2",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron3",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron4",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron5",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron6",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron7",
+      "squidcoder:block/pointed_dripstone/drip_water_cauldron8"
+    ],
+    "subtitle": "subtitles.block.pointed_dripstone.drip_water_into_cauldron"
+  },
+  "block.pointed_dripstone.fall": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ]
+  },
+  "block.pointed_dripstone.hit": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.pointed_dripstone.land": {
+    "sounds": [
+      "squidcoder:block/pointed_dripstone/land1",
+      "squidcoder:block/pointed_dripstone/land2",
+      "squidcoder:block/pointed_dripstone/land3",
+      "squidcoder:block/pointed_dripstone/land4",
+      "squidcoder:block/pointed_dripstone/land5"
+    ]
+  },
+  "block.pointed_dripstone.place": {
+    "sounds": [
+      "squidcoder:block/dripstone/break1",
+      "squidcoder:block/dripstone/break2",
+      "squidcoder:block/dripstone/break3",
+      "squidcoder:block/dripstone/break4",
+      "squidcoder:block/dripstone/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.pointed_dripstone.step": {
+    "sounds": [
+      "squidcoder:block/dripstone/step1",
+      "squidcoder:block/dripstone/step2",
+      "squidcoder:block/dripstone/step3",
+      "squidcoder:block/dripstone/step4",
+      "squidcoder:block/dripstone/step5",
+      "squidcoder:block/dripstone/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.polished_deepslate.break": {
+    "sounds": [
+      "squidcoder:block/deepslate/break1",
+      "squidcoder:block/deepslate/break2",
+      "squidcoder:block/deepslate/break3",
+      "squidcoder:block/deepslate/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.polished_deepslate.fall": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ]
+  },
+  "block.polished_deepslate.hit": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.polished_deepslate.place": {
+    "sounds": [
+      "squidcoder:block/deepslate/place1",
+      "squidcoder:block/deepslate/place2",
+      "squidcoder:block/deepslate/place3",
+      "squidcoder:block/deepslate/place4",
+      "squidcoder:block/deepslate/place5",
+      "squidcoder:block/deepslate/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.polished_deepslate.step": {
+    "sounds": [
+      "squidcoder:block/deepslate/step1",
+      "squidcoder:block/deepslate/step2",
+      "squidcoder:block/deepslate/step3",
+      "squidcoder:block/deepslate/step4",
+      "squidcoder:block/deepslate/step5",
+      "squidcoder:block/deepslate/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.powder_snow.break": {
+    "sounds": [
+      "squidcoder:block/powder_snow/break1",
+      "squidcoder:block/powder_snow/break2",
+      "squidcoder:block/powder_snow/break3",
+      "squidcoder:block/powder_snow/break4",
+      "squidcoder:block/powder_snow/break5",
+      "squidcoder:block/powder_snow/break6",
+      "squidcoder:block/powder_snow/break7"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.powder_snow.fall": {
+    "sounds": [
+      "squidcoder:block/powder_snow/step1",
+      "squidcoder:block/powder_snow/step2",
+      "squidcoder:block/powder_snow/step3",
+      "squidcoder:block/powder_snow/step4",
+      "squidcoder:block/powder_snow/step5",
+      "squidcoder:block/powder_snow/step6",
+      "squidcoder:block/powder_snow/step7",
+      "squidcoder:block/powder_snow/step8",
+      "squidcoder:block/powder_snow/step9",
+      "squidcoder:block/powder_snow/step10"
+    ]
+  },
+  "block.powder_snow.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/powder_snow/step1",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step2",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step3",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step4",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step5",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step6",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step7",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step8",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step9",
+        "volume": 0.83,
+        "pitch": 1.3
+      },
+      {
+        "name": "squidcoder:block/powder_snow/step10",
+        "volume": 0.83,
+        "pitch": 1.3
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.powder_snow.place": {
+    "sounds": [
+      "squidcoder:block/powder_snow/break1",
+      "squidcoder:block/powder_snow/break2",
+      "squidcoder:block/powder_snow/break3",
+      "squidcoder:block/powder_snow/break4",
+      "squidcoder:block/powder_snow/break5",
+      "squidcoder:block/powder_snow/break6",
+      "squidcoder:block/powder_snow/break7"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.powder_snow.step": {
+    "sounds": [
+      "squidcoder:block/powder_snow/step1",
+      "squidcoder:block/powder_snow/step2",
+      "squidcoder:block/powder_snow/step3",
+      "squidcoder:block/powder_snow/step4",
+      "squidcoder:block/powder_snow/step5",
+      "squidcoder:block/powder_snow/step6",
+      "squidcoder:block/powder_snow/step7",
+      "squidcoder:block/powder_snow/step8",
+      "squidcoder:block/powder_snow/step9",
+      "squidcoder:block/powder_snow/step10"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.rooted_dirt.break": {
+    "sounds": [
+      "squidcoder:block/rooted_dirt/break1",
+      "squidcoder:block/rooted_dirt/break2",
+      "squidcoder:block/rooted_dirt/break3",
+      "squidcoder:block/rooted_dirt/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.rooted_dirt.fall": {
+    "sounds": [
+      "squidcoder:block/rooted_dirt/step1",
+      "squidcoder:block/rooted_dirt/step2",
+      "squidcoder:block/rooted_dirt/step3",
+      "squidcoder:block/rooted_dirt/step4",
+      "squidcoder:block/rooted_dirt/step5",
+      "squidcoder:block/rooted_dirt/step6"
+    ]
+  },
+  "block.rooted_dirt.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/rooted_dirt/step1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/rooted_dirt/step2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/rooted_dirt/step3",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/rooted_dirt/step4",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/rooted_dirt/step5",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/rooted_dirt/step6",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.rooted_dirt.place": {
+    "sounds": [
+      "squidcoder:block/rooted_dirt/break1",
+      "squidcoder:block/rooted_dirt/break2",
+      "squidcoder:block/rooted_dirt/break3",
+      "squidcoder:block/rooted_dirt/break4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.rooted_dirt.step": {
+    "sounds": [
+      "squidcoder:block/rooted_dirt/step1",
+      "squidcoder:block/rooted_dirt/step2",
+      "squidcoder:block/rooted_dirt/step3",
+      "squidcoder:block/rooted_dirt/step4",
+      "squidcoder:block/rooted_dirt/step5",
+      "squidcoder:block/rooted_dirt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.roots.break": {
+    "sounds": [
+      "squidcoder:block/roots/break1",
+      "squidcoder:block/roots/break2",
+      "squidcoder:block/roots/break3",
+      "squidcoder:block/roots/break4",
+      "squidcoder:block/roots/break5",
+      "squidcoder:block/roots/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.roots.fall": {
+    "sounds": []
+  },
+  "block.roots.hit": {
+    "sounds": [],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.roots.place": {
+    "sounds": [
+      "squidcoder:block/roots/break1",
+      "squidcoder:block/roots/break2",
+      "squidcoder:block/roots/break3",
+      "squidcoder:block/roots/break4",
+      "squidcoder:block/roots/break5",
+      "squidcoder:block/roots/break6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.roots.step": {
+    "sounds": [],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.sculk_sensor.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk_sensor/break1",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/break2",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/break3",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/break4",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/break5",
+        "pitch": 1.2,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.sculk_sensor.clicking": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking1",
+        "volume": 0.73
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking2",
+        "volume": 0.73
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking3",
+        "volume": 0.73
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking4",
+        "volume": 0.73
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking5",
+        "volume": 0.73
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking6",
+        "volume": 0.73
+      }
+    ],
+    "subtitle": "subtitles.block.sculk_sensor.clicking"
+  },
+  "block.sculk_sensor.clicking_stop": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking_stop1",
+        "volume": 0.62
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking_stop2",
+        "volume": 0.62
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking_stop3",
+        "volume": 0.62
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking_stop4",
+        "volume": 0.62
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/sculk_clicking_stop5",
+        "volume": 0.62
+      }
+    ],
+    "subtitle": "subtitles.block.sculk_sensor.clicking_stop"
+  },
+  "block.sculk_sensor.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step6",
+        "volume": 1
+      }
+    ]
+  },
+  "block.sculk_sensor.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.sculk_sensor.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk_sensor/place1",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/place2",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/place3",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/place4",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:block/sculk_sensor/place5",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.sculk_sensor.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/sculk/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/sculk/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.small_amethyst_bud.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/break1",
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break2",
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break3",
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/break4",
+        "volume": 0.4
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.small_amethyst_bud.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/amethyst_cluster/place1",
+        "pitch:": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place2",
+        "pitch:": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place3",
+        "pitch:": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:block/amethyst_cluster/place4",
+        "pitch:": 1.2,
+        "volume": 0.4
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.small_dripleaf.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/big_dripleaf/break1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break3",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break4",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break5",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break6",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.small_dripleaf.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/big_dripleaf/step1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step3",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step4",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step5",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step6",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "block.small_dripleaf.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/big_dripleaf/step1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step3",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step4",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step5",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step6",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.small_dripleaf.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/big_dripleaf/break1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break3",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break4",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break5",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/break6",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.small_dripleaf.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/big_dripleaf/step1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step3",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step4",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step5",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:block/big_dripleaf/step6",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.spore_blossom.break": {
+    "sounds": [
+      "squidcoder:block/spore_blossom/break1",
+      "squidcoder:block/spore_blossom/break2",
+      "squidcoder:block/spore_blossom/break3",
+      "squidcoder:block/spore_blossom/break4",
+      "squidcoder:block/spore_blossom/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.spore_blossom.fall": {
+    "sounds": [
+      "squidcoder:block/spore_blossom/step1",
+      "squidcoder:block/spore_blossom/step2",
+      "squidcoder:block/spore_blossom/step3",
+      "squidcoder:block/spore_blossom/step4",
+      "squidcoder:block/spore_blossom/step5",
+      "squidcoder:block/spore_blossom/step6"
+    ]
+  },
+  "block.spore_blossom.hit": {
+    "sounds": [
+      "squidcoder:block/spore_blossom/step1",
+      "squidcoder:block/spore_blossom/step2",
+      "squidcoder:block/spore_blossom/step3",
+      "squidcoder:block/spore_blossom/step4",
+      "squidcoder:block/spore_blossom/step5",
+      "squidcoder:block/spore_blossom/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.spore_blossom.place": {
+    "sounds": [
+      "squidcoder:block/spore_blossom/break1",
+      "squidcoder:block/spore_blossom/break2",
+      "squidcoder:block/spore_blossom/break3",
+      "squidcoder:block/spore_blossom/break4",
+      "squidcoder:block/spore_blossom/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.spore_blossom.step": {
+    "sounds": [
+      "squidcoder:block/spore_blossom/step1",
+      "squidcoder:block/spore_blossom/step2",
+      "squidcoder:block/spore_blossom/step3",
+      "squidcoder:block/spore_blossom/step4",
+      "squidcoder:block/spore_blossom/step5",
+      "squidcoder:block/spore_blossom/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.tuff.break": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/tuff/break1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.tuff.fall": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/tuff/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step6",
+        "volume": 1
+      }
+    ]
+  },
+  "block.tuff.hit": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/tuff/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.tuff.place": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/tuff/break1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/break4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.tuff.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:block/tuff/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:block/tuff/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+
+  "entity.axolotl.attack": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/axolotl/attack1",
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:mob/axolotl/attack2",
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:mob/axolotl/attack3",
+        "volume": 0.5
+      },
+      {
+        "name": "squidcoder:mob/axolotl/attack4",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.entity.axolotl.attack"
+  },
+  "entity.axolotl.death": {
+    "sounds": [
+      "squidcoder:mob/axolotl/death1",
+      "squidcoder:mob/axolotl/death2"
+    ],
+    "subtitle": "subtitles.entity.axolotl.death"
+  },
+  "entity.axolotl.hurt": {
+    "sounds": [
+      "squidcoder:mob/axolotl/hurt1",
+      "squidcoder:mob/axolotl/hurt2",
+      "squidcoder:mob/axolotl/hurt3",
+      "squidcoder:mob/axolotl/hurt4"
+    ],
+    "subtitle": "subtitles.entity.axolotl.hurt"
+  },
+  "entity.axolotl.idle_air": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/axolotl/idle_air1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/axolotl/idle_air2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/axolotl/idle_air3",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:mob/axolotl/idle_air4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/axolotl/idle_air5",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.axolotl.idle_air"
+  },
+  "entity.axolotl.idle_water": {
+    "sounds": [
+      "squidcoder:mob/axolotl/idle1",
+      "squidcoder:mob/axolotl/idle2",
+      "squidcoder:mob/axolotl/idle3",
+      "squidcoder:mob/axolotl/idle4",
+      "squidcoder:mob/axolotl/idle5"
+    ],
+    "subtitle": "subtitles.entity.axolotl.idle_water"
+  },
+  "entity.axolotl.splash": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/dolphin/splash1",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:mob/dolphin/splash2",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "squidcoder:mob/dolphin/splash3",
+        "volume": 0.9,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.entity.axolotl.splash"
+  },
+  "entity.axolotl.swim": {
+    "sounds": [
+      "squidcoder:mob/dolphin/swim1",
+      "squidcoder:mob/dolphin/swim2",
+      "squidcoder:mob/dolphin/swim3",
+      "squidcoder:mob/dolphin/swim4",
+      "entity/fish/swim5",
+      "entity/fish/swim6",
+      "entity/fish/swim7"
+    ],
+    "subtitle": "subtitles.entity.axolotl.swim"
+  },
+  "entity.glow_item_frame.add_item": {
+    "sounds": [
+      "entity/itemframe/add_item1",
+      "entity/itemframe/add_item2",
+      "entity/itemframe/add_item3",
+      "entity/itemframe/add_item4"
+    ],
+    "subtitle": "subtitles.entity.glow_item_frame.add_item"
+  },
+  "entity.glow_item_frame.break": {
+    "sounds": [
+      "entity/itemframe/break1",
+      "entity/itemframe/break2",
+      "entity/itemframe/break3"
+    ],
+    "subtitle": "subtitles.entity.glow_item_frame.break"
+  },
+  "entity.glow_item_frame.place": {
+    "sounds": [
+      "entity/itemframe/place1",
+      "entity/itemframe/place2",
+      "entity/itemframe/place3",
+      "entity/itemframe/place4"
+    ],
+    "subtitle": "subtitles.entity.glow_item_frame.place"
+  },
+  "entity.glow_item_frame.remove_item": {
+    "sounds": [
+      "entity/itemframe/remove_item1",
+      "entity/itemframe/remove_item2",
+      "entity/itemframe/remove_item3",
+      "entity/itemframe/remove_item4"
+    ],
+    "subtitle": "subtitles.entity.glow_item_frame.remove_item"
+  },
+  "entity.glow_item_frame.rotate_item": {
+    "sounds": [
+      "entity/itemframe/rotate_item1",
+      "entity/itemframe/rotate_item2",
+      "entity/itemframe/rotate_item3",
+      "entity/itemframe/rotate_item4"
+    ],
+    "subtitle": "subtitles.entity.glow_item_frame.rotate_item"
+  },
+  "entity.glow_squid.ambient": {
+    "sounds": [
+      "entity/glow_squid/ambient1",
+      "entity/glow_squid/ambient2",
+      "entity/glow_squid/ambient3",
+      "entity/glow_squid/ambient4",
+      "entity/glow_squid/ambient5"
+    ],
+    "subtitle": "subtitles.entity.glow_squid.ambient"
+  },
+  "entity.glow_squid.death": {
+    "sounds": [
+      "entity/glow_squid/death1",
+      "entity/glow_squid/death2",
+      "entity/glow_squid/death3"
+    ],
+    "subtitle": "subtitles.entity.glow_squid.death"
+  },
+  "entity.glow_squid.hurt": {
+    "sounds": [
+      "entity/glow_squid/hurt1",
+      "entity/glow_squid/hurt2",
+      "entity/glow_squid/hurt3",
+      "entity/glow_squid/hurt4"
+    ],
+    "subtitle": "subtitles.entity.glow_squid.hurt"
+  },
+  "entity.glow_squid.squirt": {
+    "sounds": [
+      "entity/glow_squid/squirt1",
+      "entity/glow_squid/squirt2",
+      "entity/glow_squid/squirt3"
+    ],
+    "subtitle": "subtitles.entity.glow_squid.squirt"
+  },
+  "entity.goat.ambient": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/idle1",
+        "volume": 0.82
+      },
+      {
+        "name": "squidcoder:mob/goat/idle2",
+        "volume": 0.82
+      },
+      {
+        "name": "squidcoder:mob/goat/idle3",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle4",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle5",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle6",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle7",
+        "volume": 0.83
+      },
+      {
+        "name": "squidcoder:mob/goat/idle8",
+        "volume": 0.84
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.ambient"
+  },
+  "entity.goat.death": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/death1",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/death2",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/death3",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/death4",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/death5",
+        "volume": 0.65
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.death"
+  },
+  "entity.goat.eat": {
+    "sounds": [
+      "squidcoder:mob/goat/eat1",
+      "squidcoder:mob/goat/eat2",
+      "squidcoder:mob/goat/eat3"
+    ],
+    "subtitle": "subtitles.entity.goat.eat"
+  },
+  "entity.goat.hurt": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/hurt1",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/hurt2",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/hurt3",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/hurt4",
+        "volume": 0.65
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.hurt"
+  },
+  "entity.goat.long_jump": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/jump1",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/jump2",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/jump1",
+        "volume": 0.8,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/jump2",
+        "volume": 0.8,
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.long_jump"
+  },
+  "entity.goat.milk": {
+    "sounds": [
+      "squidcoder:mob/mooshroom/milk1",
+      "squidcoder:mob/mooshroom/milk2",
+      "squidcoder:mob/mooshroom/milk3"
+    ],
+    "subtitle": "subtitles.entity.goat.milk"
+  },
+  "entity.goat.prepare_ram": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/pre_ram1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/pre_ram2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/pre_ram3",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/pre_ram4",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.prepare_ram"
+  },
+  "entity.goat.ram_impact": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/impact1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/impact2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/impact2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.ram_impact"
+  },
+  "entity.goat.screaming.ambient": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/idle1",
+        "volume": 0.82
+      },
+      {
+        "name": "squidcoder:mob/goat/idle2",
+        "volume": 0.82
+      },
+      {
+        "name": "squidcoder:mob/goat/idle3",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle4",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle5",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle6",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/idle7",
+        "volume": 0.83
+      },
+      {
+        "name": "squidcoder:mob/goat/idle8",
+        "volume": 0.84
+      },
+      {
+        "name": "squidcoder:mob/goat/scream1",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream2",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream3",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream4",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream5",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream6",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream7",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream8",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:mob/goat/scream9",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.screaming.ambient"
+  },
+  "entity.goat.screaming.death": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/screaming_death1",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_death2",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_death3",
+        "volume": 0.65
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.death"
+  },
+  "entity.goat.screaming.eat": {
+    "sounds": [
+      "squidcoder:mob/goat/eat1",
+      "squidcoder:mob/goat/eat2",
+      "squidcoder:mob/goat/eat3"
+    ],
+    "subtitle": "subtitles.entity.goat.eat"
+  },
+  "entity.goat.screaming.hurt": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/screaming_hurt1",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_hurt2",
+        "volume": 0.65
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_hurt3",
+        "volume": 0.65
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.hurt"
+  },
+  "entity.goat.screaming.long_jump": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/jump1",
+        "volum": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/jump2",
+        "volum": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/jump1",
+        "volum": 0.8,
+        "pitch": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/jump2",
+        "volum": 0.8,
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.long_jump"
+  },
+  "entity.goat.screaming.milk": {
+    "sounds": [
+      "squidcoder:mob/goat/screaming_milk1",
+      "squidcoder:mob/goat/screaming_milk2",
+      "squidcoder:mob/goat/screaming_milk3",
+      "squidcoder:mob/goat/screaming_milk4",
+      "squidcoder:mob/goat/screaming_milk5"
+    ],
+    "subtitle": "subtitles.entity.goat.milk"
+  },
+  "entity.goat.screaming.prepare_ram": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/screaming_pre_ram1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_pre_ram2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_pre_ram3",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_pre_ram4",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/screaming_pre_ram5",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.prepare_ram"
+  },
+  "entity.goat.screaming.ram_impact": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/impact1",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/impact2",
+        "volume": 0.8
+      },
+      {
+        "name": "squidcoder:mob/goat/impact2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.ram_impact"
+  },
+  "entity.goat.step": {
+    "sounds": [
+      {
+        "name": "squidcoder:mob/goat/step1",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/step2",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/step3",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/step4",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/step5",
+        "volume": 1
+      },
+      {
+        "name": "squidcoder:mob/goat/step6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+
+  "item.axe.scrape": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/axe/scrape1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape2",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape3",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/scrape1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/scrape2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/scrape3",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.item.axe.scrape"
+  },
+  "item.axe.strip": {
+    "sounds": [
+      {
+        "name": "item/axe/strip1",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip2",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip3",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip4",
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip1",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip2",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip3",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/strip4",
+        "pitch": 0.85,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.item.axe.strip"
+  },
+  "item.axe.wax_off": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/axe/wax_off1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off2",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off3",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/axe/wax_off3",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.item.axe.wax_off"
+  },
+  "item.bone_meal.use": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal4",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal5",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal3",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal4",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal5",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal2",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal3",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal4",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bonemeal/bonemeal5",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.item.bone_meal.use"
+  },
+  "item.bucket.empty_axolotl": {
+    "sounds": [
+      "item/bucket/empty_fish1",
+      "item/bucket/empty_fish2",
+      "item/bucket/empty_fish3"
+    ],
+    "subtitle": "subtitles.item.bucket.empty"
+  },
+  "item.bucket.empty_powder_snow": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow1",
+        "pitch": 0.95
+      },
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow2",
+        "pitch": 0.95
+      },
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bucket/empty_powder_snow2",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.item.bucket.empty"
+  },
+  "item.bucket.fill_axolotl": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/bucket/fill_axolotl1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_axolotl2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_axolotl3",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.item.bucket.fill_axolotl"
+  },
+  "item.bucket.fill_powder_snow": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow1",
+        "pitch": 1.0
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow2",
+        "pitch": 1.0
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/bucket/fill_powder_snow2",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.item.bucket.fill"
+  },
+  "item.glow_ink_sac.use": {
+    "sounds": [
+      {
+        "name": "item/ink_sac/ink_sac1",
+        "pitch": 1
+      },
+      {
+        "name": "item/ink_sac/ink_sac1",
+        "pitch": 1.05
+      },
+      {
+        "name": "item/ink_sac/ink_sac1",
+        "pitch": 0.95
+      },
+      {
+        "name": "item/ink_sac/ink_sac2",
+        "pitch": 1
+      },
+      {
+        "name": "item/ink_sac/ink_sac2",
+        "pitch": 1.05
+      },
+      {
+        "name": "item/ink_sac/ink_sac2",
+        "pitch": 0.95
+      },
+      {
+        "name": "item/ink_sac/ink_sac3",
+        "pitch": 1
+      },
+      {
+        "name": "item/ink_sac/ink_sac3",
+        "pitch": 1.05
+      },
+      {
+        "name": "item/ink_sac/ink_sac3",
+        "pitch": 0.95
+      }
+    ],
+    "subtitle": "subtitles.item.glow_ink_sac.use"
+  },
+  "item.honeycomb.wax_on": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/honeycomb/wax_on1",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on2",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on3",
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on1",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on2",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on3",
+        "pitch": 1.1
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on1",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on2",
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/honeycomb/wax_on3",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.item.honeycomb.wax_on"
+  },
+  "item.spyglass.stop_using": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/spyglass/stop",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "squidcoder:item/spyglass/stop",
+        "volume": 0.5,
+        "pitch": 0.9
+      },
+      {
+        "name": "squidcoder:item/spyglass/stop",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.item.spyglass.stop_using"
+  },
+  "item.spyglass.use": {
+    "sounds": [
+      {
+        "name": "squidcoder:item/spyglass/use",
+        "volume": 0.5,
+        "pitch": 1.33
+      },
+      {
+        "name": "squidcoder:item/spyglass/use",
+        "volume": 0.5,
+        "pitch": 1.15
+      },
+      {
+        "name": "squidcoder:item/spyglass/use",
+        "volume": 0.5,
+        "pitch": 1.4
+      },
+      {
+        "name": "squidcoder:item/spyglass/use",
+        "volume": 0.5,
+        "pitch": 1.55
+      }
+    ],
+    "subtitle": "subtitles.item.spyglass.use"
+  },
+
+  "music.under_water": {
+    "sounds": [
+      {
+        "name": "squidcoder:music/game/water/shuniji",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/water/dragon_fish",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/water/axolotl",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "sounds": [
+      {
+        "name": "squidcoder:music/game/an_ordinary_day",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/wending",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "sounds": [
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "sounds": [
+      {
+        "name": "squidcoder:music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "sounds": [
+      {
+        "name": "squidcoder:music/game/an_ordinary_day",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/floating_dream",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "squidcoder:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "sounds": [
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "sounds": [
+      {
+        "name": "squidcoder:music/game/an_ordinary_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "squidcoder:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "sounds": [
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "squidcoder:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "squidcoder:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
+}

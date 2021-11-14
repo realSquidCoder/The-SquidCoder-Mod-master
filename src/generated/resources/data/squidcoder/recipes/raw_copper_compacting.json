@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "squidcoder:raw_copper"
+    }
+  },
+  "result": {
+    "item": "squidcoder:raw_copper_block"
+  }
+}

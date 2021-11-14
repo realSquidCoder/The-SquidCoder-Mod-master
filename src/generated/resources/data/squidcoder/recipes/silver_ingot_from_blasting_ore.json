@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "squidcoder:silver_ore"
+  },
+  "result": "squidcoder:silver_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
