@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 53
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 6
+                  },
+                  "max_inclusive": {
+                    "absolute": 46
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "squidcoder:geode",
+              "config": {
+                "blocks": {
+                  "filling_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:air"
+                    }
+                  },
+                  "inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "squidcoder:amethyst_block"
+                    }
+                  },
+                  "alternate_inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "squidcoder:budding_amethyst"
+                    }
+                  },
+                  "middle_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "squicoder:calcite"
+                    }
+                  },
+                  "outer_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "squicoder:smooth_basalt"
+                    }
+                  },
+                  "inner_placements": [
+                    {
+                      "Name": "squicoder:small_amethyst_bud",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "up"
+                      }
+                    },
+                    {
+                      "Name": "squicoder:medium_amethyst_bud",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "up"
+                      }
+                    },
+                    {
+                      "Name": "squicoder:large_amethyst_bud",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "up"
+                      }
+                    },
+                    {
+                      "Name": "squicoder:amethyst_cluster",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "up"
+                      }
+                    }
+                  ],
+                  "cannot_replace": "minecraft:features_cannot_replace",
+                  "invalid_blocks": "squicoder:geode_invalid_blocks"
+                },
+                "layers": {
+                  "filling": 1.7,
+                  "inner_layer": 2.2,
+                  "middle_layer": 3.2,
+                  "outer_layer": 4.2
+                },
+                "crack": {
+                  "generate_crack_chance": 0.95,
+                  "base_crack_size": 2,
+                  "crack_point_offset": 2
+                },
+                "noise_multiplier": 0.05,
+                "use_potential_placements_chance": 0.35,
+                "use_alternate_layer0_chance": 0.083,
+                "placements_require_layer0_alternate": true,
+                "outer_wall_distance": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 6
+                  }
+                },
+                "distribution_points": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 3,
+                    "max_inclusive": 4
+                  }
+                },
+                "point_offset": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 2
+                  }
+                },
+                "min_gen_offset": -16,
+                "max_gen_offset": 16,
+                "invalid_blocks_threshold": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

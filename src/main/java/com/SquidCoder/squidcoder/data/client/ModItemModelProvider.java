@@ -17,6 +17,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         withExistingParent("silver_block", modLoc("block/silver_block"));
 
+        withExistingParent("copper_block", modLoc("block/copper_block"));
+        //withExistingParent("copper_block", modLoc("block/copper_block"));
+        //withExistingParent("copper_block", modLoc("block/copper_block"));
         //withExistingParent("copper_block", modLoc("block/copper_block"));
 
         withExistingParent("waxed_copper_block", modLoc("block/waxed_copper_block"));

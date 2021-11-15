@@ -55,7 +55,7 @@ public class SquidCoderMod
     {
         event.enqueueWork(() -> {
             AxeItem.STRIPABLES = new ImmutableMap.Builder<Block, Block>().putAll(AxeItem.STRIPABLES)
-                    .put(ModBlocks.WAXED_COPPER_BLOCK.get(), ModBlocks.COPPER_BLOCK.get())
+                    //.put(ModBlocks.WAXED_COPPER_BLOCK.get(), ModBlocks.COPPER_BLOCK.get())
                     //etc.
                     .build();
         });

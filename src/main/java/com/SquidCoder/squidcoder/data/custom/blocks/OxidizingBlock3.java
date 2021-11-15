@@ -13,6 +13,7 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.vector.Vector3i;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
@@ -21,7 +22,7 @@ import java.util.Random;
 
 public class OxidizingBlock3 extends Block {
     private BlockState currentState;
-    private ArrayList<BlockState> possibleStates = new ArrayList<BlockState>(4);
+    private ArrayList<BlockState> possibleStates = new ArrayList<>(4);
     private final float chance = 64f / 1125f;
 
     public OxidizingBlock3(Properties properties, float chance) {
@@ -82,8 +83,24 @@ public class OxidizingBlock3 extends Block {
     public void randomTick(BlockState stateIn, ServerWorld worldIn, BlockPos pos, Random randIn) {
         if(randIn.nextFloat() > chance){
             System.out.println("Block at pos: " + pos.toShortString()+" entered pre-oxidation state.");
+            runPreOxiTests(pos, stateIn, worldIn);
         }
         super.randomTick(stateIn, worldIn, pos, randIn);
+    }
+
+    private void runPreOxiTests(BlockPos pos, BlockState stateIn, ServerWorld worldIn) {
+        for(int y=-4; y<=4;y++){
+            for(int x=-4; x<=4; x++){
+                for(int z=-4; z<=4;z++){
+                    if(y==0 && x==0 && z==0){
+                        continue;
+                    }
+                    Vector3i chkPos = new Vector3i(x,y,z);
+                    //System.out.println("ChkPos:" + chkPos + ". Info: " + pos.distManhattan(chkPos));
+
+                }
+            }
+        }
     }
 
     private BlockState getNextState(BlockState currentState) {
