@@ -1,5 +1,6 @@
 package com.SquidCoder.squidcoder.setup;
 
+import com.SquidCoder.squidcoder.data.custom.blocks.OxidationLevel;
 import com.SquidCoder.squidcoder.data.custom.blocks.OxidizingBlock;
 import com.SquidCoder.squidcoder.data.custom.blocks.OxidizingBlock3;
 import net.minecraft.block.AbstractBlock;
@@ -46,7 +47,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(3, 6)
                     .sound(ModSoundType.COPPER),
-                    1F));
+                    OxidationLevel.New));
 
     public static final RegistryObject<OxidizingBlock3> EXPOSED_COPPER = register("exposed_copper", () ->
             new OxidizingBlock3(AbstractBlock.Properties
@@ -56,7 +57,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(3, 6)
                     .sound(ModSoundType.COPPER),
-                    1F));
+                    OxidationLevel.Exposed));
 
     public static final RegistryObject<OxidizingBlock3> WEATHERED_COPPER = register("weathered_copper", () ->
             new OxidizingBlock3(AbstractBlock.Properties
@@ -66,7 +67,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(3, 6)
                     .sound(ModSoundType.COPPER),
-                    1F));
+                    OxidationLevel.Weathered));
 
     public static final RegistryObject<OxidizingBlock3> OXIDIZED_COPPER = register("oxidized_copper", () ->
             new OxidizingBlock3(AbstractBlock.Properties
@@ -76,7 +77,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(3, 6)
                     .sound(ModSoundType.COPPER),
-                    1F));
+                    OxidationLevel.Oxidized));
 
     public static final RegistryObject<Block> WAXED_COPPER_BLOCK = register("waxed_copper_block", () ->
             new Block(AbstractBlock.Properties

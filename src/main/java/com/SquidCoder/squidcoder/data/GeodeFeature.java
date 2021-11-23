@@ -2,6 +2,7 @@ package com.SquidCoder.squidcoder.data;
 
 import java.util.Random;
 
+import com.SquidCoder.squidcoder.setup.Registration;
 import com.mojang.serialization.Codec;
 
 import net.minecraft.block.BlockState;

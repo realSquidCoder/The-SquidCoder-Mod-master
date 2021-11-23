@@ -1,15 +1,12 @@
 package com.SquidCoder.squidcoder.setup.world.gen;
 
-import com.SquidCoder.squidcoder.data.GeodeFeature;
 import com.SquidCoder.squidcoder.setup.ModBlocks;
-import com.SquidCoder.squidcoder.setup.Registration;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
-import net.minecraftforge.fml.RegistryObject;
 
 public class ModConfiguredFeatures {
 
@@ -23,8 +20,6 @@ public class ModConfiguredFeatures {
                             new TwoLayerFeature(1, 0, 1)))/*limit, lowerSize, upperSize*/
                     .ignoreVines()
                     .build()));
-    public static final RegistryObject<GeodeFeature> GEODE = Registration.FEATURES.register("geode", () -> new GeodeFeature(NoFeatureConfig.CODEC));
-
     private static <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String key,
                                                                                  ConfiguredFeature<FC, ?> configuredFeature) {
         return Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, key, configuredFeature);

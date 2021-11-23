@@ -27,6 +27,6 @@ public class ModWorldEvents {
         UNDERGROUND_DECORATION,
         VEGETAL_DECORATION,
         TOP_LAYER_MODIFICATION;
-        * */
+        */
     }
 }

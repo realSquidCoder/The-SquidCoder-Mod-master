@@ -2,13 +2,16 @@ package com.SquidCoder.squidcoder.setup;
 
 import com.SquidCoder.squidcoder.SquidCoderMod;
 import com.SquidCoder.squidcoder.setup.world.gen.ModBiomes;
+import com.SquidCoder.squidcoder.setup.world.gen.ModConfiguredFeatures;
 import com.SquidCoder.squidcoder.setup.world.gen.ModFeatures;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.particles.ParticleType;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;

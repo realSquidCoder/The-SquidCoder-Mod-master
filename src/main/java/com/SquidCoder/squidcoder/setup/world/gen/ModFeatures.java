@@ -8,10 +8,9 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ModFeatures {
 
+	public static final RegistryObject<GeodeFeature> GEODE = Registration.FEATURES.register("geode", () -> new GeodeFeature(NoFeatureConfig.CODEC));
 
-	public static void generateFeatures(BiomeLoadingEvent event) {
-
-	}
+	public static void generateFeatures(BiomeLoadingEvent event) {}
     public static void register(){
 
 	}

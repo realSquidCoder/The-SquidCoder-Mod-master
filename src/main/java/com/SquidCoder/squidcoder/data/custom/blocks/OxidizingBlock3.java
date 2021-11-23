@@ -1,33 +1,32 @@
 package com.SquidCoder.squidcoder.data.custom.blocks;
 
-import com.SquidCoder.squidcoder.setup.ModParticleTypes;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Items;
-import net.minecraft.particles.BlockParticleData;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.state.IntegerProperty;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.vector.Vector3i;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
-import java.util.ArrayList;
 import java.util.Random;
 
-public class OxidizingBlock3 extends Block {
-    private BlockState currentState;
-    private ArrayList<BlockState> possibleStates = new ArrayList<>(4);
+public class OxidizingBlock3 extends Block{
     private final float chance = 64f / 1125f;
+    private static final IntegerProperty OXIDIZATION = IntegerProperty.create("oxidization", 0, 3);
+    private final OxidationLevel oxiLevel;
 
-    public OxidizingBlock3(Properties properties, float chance) {
+    public OxidizingBlock3(Properties properties, OxidationLevel oxiLevel) {
         super(properties);
+        registerDefaultState(defaultBlockState().setValue(OXIDIZATION, oxiLevel.getOxidationState()));
+        this.oxiLevel = oxiLevel;
     }
+
 
     @Override
     public boolean isRandomlyTicking(BlockState state) {
@@ -43,6 +42,9 @@ public class OxidizingBlock3 extends Block {
                 System.out.println("Trigger Wax Event");
                 if (!player.isCreative())
                     player.getItemInHand(handIn).shrink(1);
+                worldIn.addParticle(ParticleTypes.END_ROD, pos.getX() + Math.random(),
+                        pos.getY() + 1.5D, pos.getZ() + Math.random(),
+                        0d,0.05d,0d);
                 return ActionResultType.CONSUME;
             }
             if (getOxiLevel(state) > 0 && player.getItemInHand(handIn)
@@ -58,63 +60,49 @@ public class OxidizingBlock3 extends Block {
         return ActionResultType.FAIL;
     }
 
-    private int getOxiLevel(BlockState state) {
-        return possibleStates.indexOf(state.getBlockState());
-    }
-
-    @Override
-    public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand) {
-        float chance = 0.00f;
-        if(chance < rand.nextFloat()) {
-            worldIn.addParticle(ParticleTypes.END_ROD, pos.getX() + rand.nextDouble(),
-                    pos.getY() + 0.5D, pos.getZ() + rand.nextDouble(),
-                    0d,0.05d,0d);
-
-            worldIn.addParticle(new BlockParticleData(ModParticleTypes.BLOCK, stateIn), pos.getX() + rand.nextDouble(),
-                    pos.getY() + 0.5D, pos.getZ() + rand.nextDouble(),
-                    0.0D, 0.05D, 0.0D);
-        }
-
-        super.animateTick(stateIn, worldIn, pos, rand);
-    }
+    private int getOxiLevel(BlockState state) {return state.getValue(OXIDIZATION);}
 
     @SuppressWarnings("deprecation")
     @Override
     public void randomTick(BlockState stateIn, ServerWorld worldIn, BlockPos pos, Random randIn) {
         if(randIn.nextFloat() > chance){
             System.out.println("Block at pos: " + pos.toShortString()+" entered pre-oxidation state.");
-            runPreOxiTests(pos, stateIn, worldIn);
+            boolean willOxidize = runPreOxiTests(pos, stateIn, worldIn);
+            if(willOxidize){
+                worldIn.setBlockAndUpdate(pos, getNextState(stateIn));
+            }
         }
         super.randomTick(stateIn, worldIn, pos, randIn);
     }
 
-    private void runPreOxiTests(BlockPos pos, BlockState stateIn, ServerWorld worldIn) {
+    private boolean runPreOxiTests(BlockPos posIn, BlockState stateIn, ServerWorld worldIn) {
         for(int y=-4; y<=4;y++){
             for(int x=-4; x<=4; x++){
                 for(int z=-4; z<=4;z++){
-                    if(y==0 && x==0 && z==0){
+                    BlockPos checkPos = new BlockPos(x,y,z);
+                    if(checkPos.equals(posIn)){
                         continue;
                     }
-                    Vector3i chkPos = new Vector3i(x,y,z);
-                    //System.out.println("ChkPos:" + chkPos + ". Info: " + pos.distManhattan(chkPos));
-
+                    if(getOxiLevel(worldIn.getBlockState(checkPos)) > getOxiLevel(stateIn)) {
+                        return false;
+                    }
                 }
             }
         }
+        return true;
     }
 
     private BlockState getNextState(BlockState currentState) {
-        int oxidationValue = possibleStates.indexOf(currentState);
-        if(oxidationValue < 3){
-            return possibleStates.get(oxidationValue+1);
+        if(getOxiLevel(currentState) < 3){
+            return this.oxiLevel.getNextBlock().get().defaultBlockState();
+        }else {
+            return currentState;
         }
-        return this.currentState;
     }
     private BlockState getPreviousState(BlockState currentState) {
-        int oxidationValue = possibleStates.indexOf(currentState);
-        if(oxidationValue > 0){
-            return possibleStates.get(oxidationValue-1);
+        if(getOxiLevel(currentState) > 0){
+            return this.oxiLevel.getOldBlock().get().defaultBlockState();
         }
-        return this.currentState;
+        return currentState;
     }
 }
