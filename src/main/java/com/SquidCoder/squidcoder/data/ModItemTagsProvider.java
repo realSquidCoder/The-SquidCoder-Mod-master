@@ -1,8 +1,8 @@
 package com.SquidCoder.squidcoder.data;
 
 import com.SquidCoder.squidcoder.SquidCoderMod;
-import com.SquidCoder.squidcoder.setup.ModItems;
-import com.SquidCoder.squidcoder.setup.ModTags;
+import com.SquidCoder.squidcoder.data.custom.items.ModItems;
+import com.SquidCoder.squidcoder.data.custom.tags.ModTags;
 import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.ItemTagsProvider;

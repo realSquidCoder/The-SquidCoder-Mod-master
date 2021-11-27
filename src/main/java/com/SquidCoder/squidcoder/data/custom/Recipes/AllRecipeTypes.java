@@ -4,17 +4,16 @@ import java.util.Optional;
 import java.util.function.Supplier;
 
 import com.SquidCoder.squidcoder.SquidCoderMod;
-import com.SquidCoder.squidcoder.data.custom.Recipes.ProcessingRecipeBuilder.ProcessingRecipeFactory;
-import com.SquidCoder.squidcoder.data.custom.Recipes.ProcessingRecipeSerializer;
-import com.SquidCoder.squidcoder.data.custom.Recipes.IRecipeTypeInfo;
+import com.SquidCoder.squidcoder.data.custom.Recipes.custom.ProcessingRecipeBuilder.ProcessingRecipeFactory;
+import com.SquidCoder.squidcoder.data.custom.Recipes.custom.ProcessingRecipeSerializer;
 
+import com.SquidCoder.squidcoder.data.custom.Recipes.custom.SandPaperPolishingRecipe;
 import com.SquidCoder.squidcoder.data.util.Lang;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.IRecipeType;
 import net.minecraft.item.crafting.ShapedRecipe;
-import net.minecraft.item.crafting.SpecialRecipeSerializer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;

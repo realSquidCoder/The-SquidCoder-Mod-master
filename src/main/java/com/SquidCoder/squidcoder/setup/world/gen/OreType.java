@@ -1,6 +1,6 @@
 package com.SquidCoder.squidcoder.setup.world.gen;
 
-import com.SquidCoder.squidcoder.setup.ModBlocks;
+import com.SquidCoder.squidcoder.data.custom.blocks.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraftforge.common.util.Lazy;
 

@@ -1331,6 +1331,13 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.cutting_board.knife": {
+    "subtitle": "squidcoder.subtitles.cutting_board.knife_cut",
+    "sounds": [
+      "squidcoder:block/cutting_board/knife1",
+      "squidcoder:block/cutting_board/knife2"
+    ]
+  },
   "block.deepslate.break": {
     "sounds": [
       "squidcoder:block/deepslate/break1",
@@ -3015,6 +3022,15 @@
       "squidcoder:block/spore_blossom/step6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.stove.crackle": {
+    "subtitle": "squidcoder.subtitles.stove.crackle",
+    "sounds": [
+      {
+        "name": "block.campfire.crackle",
+        "type": "event"
+      }
+    ]
   },
   "block.tuff.break": {
     "sounds": [

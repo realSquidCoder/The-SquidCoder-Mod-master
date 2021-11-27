@@ -1,16 +1,21 @@
 package com.SquidCoder.squidcoder;
 
-import com.SquidCoder.squidcoder.setup.ModBlocks;
+import com.SquidCoder.squidcoder.data.custom.containers.ModContainers;
+import com.SquidCoder.squidcoder.data.custom.entities.ModEntityTypes;
+import com.SquidCoder.squidcoder.data.custom.entities.render.ModBoatRenderer;
+import com.SquidCoder.squidcoder.data.custom.screens.ShipwrightsTableScreen;
 import com.SquidCoder.squidcoder.setup.Registration;
 import com.google.common.collect.ImmutableMap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.minecraft.block.Block;
+import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.item.AxeItem;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -60,12 +65,17 @@ public class SquidCoderMod
                     .build();
         });
 
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.REDWOOD_BOAT.get(), ModBoatRenderer::new);
         //Minecraft.getInstance().particleEngine.register(Registration.PARTICLE_TYPE, new IParticleFactory factory);
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
+        event.enqueueWork(() -> {
+            ScreenManager.register(ModContainers.SHIPWRIGHT_TABLE_CONTAINER.get(),
+                    ShipwrightsTableScreen::new);
+        });
 
     }
 

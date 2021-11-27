@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent("waxed_copper_block", modLoc("block/waxed_copper_block"));
 
+        withExistingParent("shipwrights_table", modLoc("block/shipwrights_table"));
+        //withExistingParent("boat_builder", modLoc("block/shipwrights_table"));
         withExistingParent("silver_ore", modLoc("block/silver_ore"));
         withExistingParent("copper_ore", modLoc("block/copper_ore"));
         withExistingParent("raw_copper_block", modLoc("block/raw_copper_block"));
@@ -31,6 +33,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("raw_gold_block", modLoc("block/raw_gold_block"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
+
+        builder(itemGenerated, "filled_blueprint");
+        builder(itemGenerated, "blueprint");
+        builder(itemGenerated, "propeller");
 
         //Ingots
         builder(itemGenerated, "silver_ingot");

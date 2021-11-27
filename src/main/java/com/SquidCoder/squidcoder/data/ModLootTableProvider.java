@@ -1,7 +1,7 @@
 package com.SquidCoder.squidcoder.data;
 
-import com.SquidCoder.squidcoder.setup.ModBlocks;
-import com.SquidCoder.squidcoder.setup.ModItems;
+import com.SquidCoder.squidcoder.data.custom.blocks.ModBlocks;
+import com.SquidCoder.squidcoder.data.custom.items.ModItems;
 import com.SquidCoder.squidcoder.setup.Registration;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
@@ -56,6 +56,8 @@ public class ModLootTableProvider extends LootTableProvider {
             dropSelf(ModBlocks.WAXED_EXPOSED_COPPER.get());
             dropSelf(ModBlocks.WAXED_WEATHERED_COPPER.get());
             dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER.get());
+
+            dropSelf(ModBlocks.SHIPWRIGHTS_TABLE.get());
 
             dropSelf(ModBlocks.RAW_COPPER_BLOCK.get());
             dropSelf(ModBlocks.RAW_IRON_BLOCK.get());

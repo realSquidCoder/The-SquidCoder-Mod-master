@@ -15,11 +15,11 @@ import java.util.function.Supplier;
 public class ModBiomes {
   	// Add more biomes here!
   	static {
-  		createBiome("lush_caves_biome", BiomeMaker::theVoidBiome);
+  		//createBiome("lush_caves_biome", BiomeMaker::theVoidBiome);
   	}
   
   	// (and also here!)
-  	public static RegistryKey<Biome> LUSH_CAVES_BIOME = registerBiome("lush_caves_biome");
+  	//public static RegistryKey<Biome> LUSH_CAVES_BIOME = registerBiome("lush_caves_biome");
   
   	public static RegistryKey<Biome> registerBiome(String biomeName) {
   		return RegistryKey.create(Registry.BIOME_REGISTRY, new ResourceLocation(SquidCoderMod.MOD_ID, biomeName));
@@ -30,7 +30,7 @@ public class ModBiomes {
   	}
   
   	public static void registerBiomes() {
-  		BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(LUSH_CAVES_BIOME, 10));
+  		//BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(LUSH_CAVES_BIOME, 10));
   	}
   	
     public static void register() {

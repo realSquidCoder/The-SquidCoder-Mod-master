@@ -3,6 +3,7 @@ package com.SquidCoder.squidcoder.data;
 import com.SquidCoder.squidcoder.SquidCoderMod;
 import com.SquidCoder.squidcoder.data.client.ModBlockStateProvider;
 import com.SquidCoder.squidcoder.data.client.ModItemModelProvider;
+import com.SquidCoder.squidcoder.data.custom.Recipes.ModRecipeProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
