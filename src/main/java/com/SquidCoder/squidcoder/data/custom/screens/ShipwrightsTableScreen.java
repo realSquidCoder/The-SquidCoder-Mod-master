@@ -30,7 +30,7 @@ public class ShipwrightsTableScreen extends ContainerScreen<ShipwrightsTableCont
         this.minecraft.getTextureManager().bind(GUI);
         int i = this.getGuiLeft();
         int j = this.getGuiTop();
-        this.blit(matrixStack, i, j, 0, 0, this.imageWidth, this.imageHeight);
+        this.blit(matrixStack, i, j, -10, 0, this.imageWidth, this.imageHeight);
 
 
         /*

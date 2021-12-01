@@ -21,7 +21,6 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
-import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 import javax.annotation.Nullable;
@@ -51,7 +50,7 @@ public class ShipwrightsTableBlock extends Block {
         return new INamedContainerProvider() {
             @Override
             public ITextComponent getDisplayName() {
-                return new TranslationTextComponent("screen.tutorialmod.lightning_channeler");
+                return new TranslationTextComponent("screen.squidcoder.shipwrights_table");
             }
 
             @Nullable

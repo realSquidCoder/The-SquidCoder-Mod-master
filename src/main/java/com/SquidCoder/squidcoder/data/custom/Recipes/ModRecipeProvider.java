@@ -58,7 +58,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("a")
                 .pattern("c")
                 .pattern("c")
-                .unlockedBy("has_item", has(ModItems.AMETHYST_SHARD.get()))
+                .unlockedBy("has_amethyst", has(ModItems.AMETHYST_SHARD.get()))
                 .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItems.BLUEPRINT.get())

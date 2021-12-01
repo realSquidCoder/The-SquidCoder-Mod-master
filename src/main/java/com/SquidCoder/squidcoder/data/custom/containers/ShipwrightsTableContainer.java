@@ -30,7 +30,7 @@ public class ShipwrightsTableContainer extends Container {
 
         if(tileEntity != null) {
             tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(h -> {
-                addSlot(new SlotItemHandler(h, 0, 80, 31));
+                //addSlot(new SlotItemHandler(h, 0, 80, 31));
                 int xPos = 43;
                 int yPos = 17;
                 for (int y=0;y<4;y++){

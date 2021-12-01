@@ -10,7 +10,7 @@ import net.minecraftforge.fml.RegistryObject;
 public class ModContainers {
 
     public static final RegistryObject<ContainerType<ShipwrightsTableContainer>> SHIPWRIGHT_TABLE_CONTAINER
-            = Registration.CONTAINERS.register("lightning_channeler_container",
+            = Registration.CONTAINERS.register("shipwrights_table_container",
             () -> IForgeContainerType.create(((windowId, inv, data) -> {
                 BlockPos pos = data.readBlockPos();
                 World world = inv.player.getCommandSenderWorld();
