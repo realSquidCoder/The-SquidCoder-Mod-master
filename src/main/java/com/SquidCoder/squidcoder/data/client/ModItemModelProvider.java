@@ -24,7 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent("waxed_copper_block", modLoc("block/waxed_copper_block"));
 
-        withExistingParent("shipwrights_table", modLoc("block/shipwrights_table"));
+        //withExistingParent("shipwrights_table", modLoc("block/shipwrights_table"));
         //withExistingParent("boat_builder", modLoc("block/shipwrights_table"));
         withExistingParent("silver_ore", modLoc("block/silver_ore"));
         withExistingParent("copper_ore", modLoc("block/copper_ore"));

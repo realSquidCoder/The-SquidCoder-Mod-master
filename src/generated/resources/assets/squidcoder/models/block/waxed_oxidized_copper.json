@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "squidcoder:block/waxed_oxidized_copper"
+  }
+}

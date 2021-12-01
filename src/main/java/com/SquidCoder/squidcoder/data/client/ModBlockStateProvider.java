@@ -31,6 +31,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.RAW_COPPER_BLOCK.get());
         simpleBlock(ModBlocks.RAW_GOLD_BLOCK.get());
         simpleBlock(ModBlocks.RAW_IRON_BLOCK.get());
-        simpleBlock(ModBlocks.SHIPWRIGHTS_TABLE.get());
+        //simpleBlock(ModBlocks.SHIPWRIGHTS_TABLE.get());
     }
 }

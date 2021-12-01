@@ -31,5 +31,8 @@
   "item.squidcoder.lightning_rod": "Lightning Rod",
   "item.squidcoder.spyglass": "Spyglass",
   "itemGroup.squidcoder_modtab": "The SquidCoder Mod",
+  "itemGroup.squidcoders_shinies_o_plenty": "Shinies O'Plenty",
+  "itemGroup.squidcoder_steam_mechanics": "SquidCoder's Steam Mechanics",
+  "itemGroup.squidcoder_modtabd": "The SquidCoder Mod",
   "itemGroup.caves_and_cliffs_modtab": "Caves & Cliffs Backport"
 }
