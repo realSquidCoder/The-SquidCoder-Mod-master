@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "squidcoder:shipwrights_table"
+    ]
+  },
+  "criteria": {
+    "has_blueprint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "squidcoder:blueprint"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "squidcoder:shipwrights_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blueprint",
+      "has_the_recipe"
+    ]
+  ]
+}

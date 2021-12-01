@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/o/",
+    "#%#",
+    "# #"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "item": "squidcoder:blueprint"
+    },
+    "%": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "squidcoder:shipwrights_table"
+  }
+}
