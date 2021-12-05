@@ -5,8 +5,6 @@ import com.SquidCoder.squidcoder.data.custom.tile_entities.ModTileEntities;
 import com.SquidCoder.squidcoder.data.custom.tile_entities.ShipwrightsTableTile;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;

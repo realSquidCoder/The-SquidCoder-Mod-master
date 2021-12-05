@@ -4,6 +4,7 @@ import com.SquidCoder.squidcoder.SquidCoderMod;
 import com.SquidCoder.squidcoder.data.custom.blocks.ModBlocks;
 import com.SquidCoder.squidcoder.data.custom.containers.ModContainers;
 import com.SquidCoder.squidcoder.data.custom.entities.ModEntityTypes;
+import com.SquidCoder.squidcoder.data.custom.fluids.ModFluids;
 import com.SquidCoder.squidcoder.data.custom.items.ModItems;
 import com.SquidCoder.squidcoder.data.custom.sounds.ModSoundEvents;
 import com.SquidCoder.squidcoder.data.custom.tile_entities.ModTileEntities;
@@ -11,6 +12,7 @@ import com.SquidCoder.squidcoder.setup.world.gen.ModBiomesDatapack;
 import com.SquidCoder.squidcoder.setup.world.gen.ModFeatures;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
+import net.minecraft.fluid.Fluid;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.Item;
 import net.minecraft.particles.ParticleType;
@@ -33,7 +35,7 @@ public class Registration {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, SquidCoderMod.MOD_ID);
     public static final DeferredRegister<TileEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, SquidCoderMod.MOD_ID);
     public static DeferredRegister<ContainerType<?>> CONTAINERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, SquidCoderMod.MOD_ID);
-
+    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, SquidCoderMod.MOD_ID);
     public static void register(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         BLOCKS.register(modEventBus);
@@ -45,6 +47,7 @@ public class Registration {
         ENTITY_TYPES.register(modEventBus);
         TILE_ENTITIES.register(modEventBus);
         CONTAINERS.register(modEventBus);
+        FLUIDS.register(modEventBus);
 
         ModBlocks.register();
         ModItems.register();
@@ -56,5 +59,6 @@ public class Registration {
         ModEntityTypes.register();
         ModTileEntities.register();
         ModContainers.register();
+        ModFluids.register();
     }
 }

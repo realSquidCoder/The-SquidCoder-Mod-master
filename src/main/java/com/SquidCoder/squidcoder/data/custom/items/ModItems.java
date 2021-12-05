@@ -1,7 +1,9 @@
 package com.SquidCoder.squidcoder.data.custom.items;
 
+import com.SquidCoder.squidcoder.data.custom.fluids.ModFluids;
 import com.SquidCoder.squidcoder.data.custom.items.custom.ModBoatItem;
 import com.SquidCoder.squidcoder.setup.Registration;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 
@@ -40,12 +42,19 @@ public class ModItems {
             }*/);
     public static final RegistryObject<Item> REDWOOD_BOAT = Registration.ITEMS.register("redwood_boat",
             () -> new ModBoatItem(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD), "redwood"));
+
     public static final RegistryObject<Item> PROPELLER = Registration.ITEMS.register("propeller", () ->
             new Item(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD)));
-    public static final RegistryObject<Item> BLUEPRINT = Registration.ITEMS.register("blueprint", () ->
+
+    public static final RegistryObject<Item> BLUEPRINT = Registration.ITEMS.register("empty_blueprint", () ->
             new Item(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD)));
-    public static final RegistryObject<Item> FILLED_BLUEPRINT = Registration.ITEMS.register("filled_blueprint", () ->
+
+    public static final RegistryObject<Item> FILLED_BLUEPRINT = Registration.ITEMS.register("blueprint", () ->
             new Item(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD)));
+
+    public static final RegistryObject<Item> OIL_BUCKET = Registration.ITEMS.register("oil_bucket",
+            () -> new BucketItem(() -> ModFluids.OIL_FLUID.get(),
+                    new Item.Properties().stacksTo(1).tab(ModItemGroup.SQUIDCODER_MOD)));
 
 
     public static void register() {}

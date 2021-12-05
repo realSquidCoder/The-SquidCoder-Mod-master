@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "squidcoder:blueprint"
+            "item": "squidcoder:empty_blueprint"
           }
         ]
       }

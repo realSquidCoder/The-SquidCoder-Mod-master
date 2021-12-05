@@ -1,11 +1,15 @@
 package com.SquidCoder.squidcoder.data.custom.tile_entities;
 
+import com.SquidCoder.squidcoder.data.custom.Recipes.ModRecipeTypes;
+import com.SquidCoder.squidcoder.data.custom.Recipes.custom.ShipwrightsTableRecipe;
 import com.SquidCoder.squidcoder.data.custom.items.ModItems;
 import net.minecraft.block.BlockState;
+import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.Direction;
@@ -17,8 +21,9 @@ import net.minecraftforge.items.ItemStackHandler;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.Optional;
 
-public class ShipwrightsTableTile extends TileEntity {
+public class ShipwrightsTableTile extends TileEntity implements ITickableTileEntity {
 
     private final ItemStackHandler itemHandler = createHandler();
     private final LazyOptional<IItemHandler> handler = LazyOptional.of(() -> itemHandler);
@@ -52,24 +57,7 @@ public class ShipwrightsTableTile extends TileEntity {
 
             @Override
             public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-                switch (slot) {
-                    case 6:
-                    case 19:
-                    case 11:
-                    case 15:
-                    case 17:
-                    case 18:
-                        return stack.getItem() == ItemTags.PLANKS || stack.getItem() == Items.IRON_INGOT;
-                    case 3:
-                    case 8:
-                    case 13:
-                        return stack.getItem() == ItemTags.LOGS;
-                    case 4:
-                        return stack.getItem() == ItemTags.WOOL;
-                    case 16: return stack.getItem() == ModItems.PROPELLER.get();
-                    default:
-                        return false;
-                }
+                return true;
             }
 
             @Override
@@ -98,5 +86,33 @@ public class ShipwrightsTableTile extends TileEntity {
 
         return super.getCapability(cap, side);
     }
+    public void craft() {
+        Inventory inv = new Inventory(itemHandler.getSlots());
+        for (int i = 0; i < itemHandler.getSlots(); i++) {
+            inv.setItem(i, itemHandler.getStackInSlot(i));
+        }
 
+        Optional<ShipwrightsTableRecipe> recipe = level.getRecipeManager()
+                .getRecipeFor(ModRecipeTypes.SHIPS_RECIPE, inv, level);
+
+        recipe.ifPresent(iRecipe -> {
+            ItemStack output = iRecipe.getResultItem();
+            craftTheItem(output);
+            });
+            setChanged();
+        };
+
+    private void craftTheItem(ItemStack output) {
+        itemHandler.extractItem(0, 1, false);
+        itemHandler.extractItem(1, 1, false);
+        itemHandler.insertItem(1, output, false);
+    }
+
+    @Override
+    public void tick() {
+        if(level.isClientSide)
+            return;
+
+        craft();
+    }
 }

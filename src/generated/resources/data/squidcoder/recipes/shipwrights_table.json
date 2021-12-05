@@ -13,7 +13,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "squidcoder:blueprint"
+      "item": "squidcoder:empty_blueprint"
     },
     "%": {
       "item": "minecraft:crafting_table"

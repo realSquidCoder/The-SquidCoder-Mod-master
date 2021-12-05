@@ -28,14 +28,14 @@ public class ShipwrightsTableScreen extends ContainerScreen<ShipwrightsTableCont
     protected void renderBg(MatrixStack matrixStack, float partialTicks, int x, int y) {
         RenderSystem.color4f(1f, 1f, 1f, 1f);
         this.minecraft.getTextureManager().bind(GUI);
-        int i = this.getGuiLeft();
-        int j = this.getGuiTop();
+        int i = this.leftPos;
+        int j = this.topPos;
         this.blit(matrixStack, i, j, 0, 0, this.imageWidth, this.imageHeight);
 
 
         /*
         //How to render things like the progress arrow and such:
-        if(false) {
+        if(booleanStatement) {
             this.blit(matrixStack, i + 82, j + 9, 176, 0, 13, 17);
         }
         */

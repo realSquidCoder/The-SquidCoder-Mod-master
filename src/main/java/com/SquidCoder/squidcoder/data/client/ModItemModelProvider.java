@@ -34,9 +34,12 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
-        builder(itemGenerated, "schematic");
-        builder(itemGenerated, "empty_schematic");
+        builder(itemGenerated, "blueprint");
+        builder(itemGenerated, "empty_blueprint");
         builder(itemGenerated, "propeller");
+
+        //Fluids
+        builder(itemGenerated, "oil_bucket");
 
         //Ingots
         builder(itemGenerated, "silver_ingot");

@@ -3,6 +3,7 @@ package com.SquidCoder.squidcoder;
 import com.SquidCoder.squidcoder.data.custom.containers.ModContainers;
 import com.SquidCoder.squidcoder.data.custom.entities.ModEntityTypes;
 import com.SquidCoder.squidcoder.data.custom.entities.render.ModBoatRenderer;
+import com.SquidCoder.squidcoder.data.custom.fluids.ModFluids;
 import com.SquidCoder.squidcoder.data.custom.screens.ShipwrightsTableScreen;
 import com.SquidCoder.squidcoder.setup.Registration;
 import com.google.common.collect.ImmutableMap;
@@ -10,6 +11,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.client.gui.ScreenManager;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.AxeItem;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -75,6 +78,9 @@ public class SquidCoderMod
         event.enqueueWork(() -> {
             ScreenManager.register(ModContainers.SHIPWRIGHT_TABLE_CONTAINER.get(),
                     ShipwrightsTableScreen::new);
+            RenderTypeLookup.setRenderLayer(ModFluids.OIL_FLUID.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModFluids.OIL_BLOCK.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModFluids.OIL_FLOWING.get(), RenderType.translucent());
         });
 
     }
