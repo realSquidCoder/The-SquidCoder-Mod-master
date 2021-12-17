@@ -6,5 +6,5 @@ What does this mod do?
 
 Credit where credit is due:
 - Thx to Kaupenjoe & SilentChaos512 for their AMAZING Forge modding tutorials.
-- Thx to everyone who helps with the Create Mod for an amazing mod and great code to look at. (I plan to use their copper oxidation code as a start for my copper things).
+- Thx to everyone who helps with the Create Mod for an amazing mod and great code to look at.
 - Thx to Mojang for obvious reasons.
