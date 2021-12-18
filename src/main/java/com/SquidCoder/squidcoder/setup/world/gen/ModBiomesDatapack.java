@@ -11,7 +11,8 @@ import net.minecraftforge.common.BiomeManager;
 
 public class ModBiomesDatapack {
 
-    public static RegistryKey<Biome> LUSH_CAVES_BIOME = registerBiome("amethyst_biome");
+    public static RegistryKey<Biome> LUSH_CAVES_BIOME = registerBiome("lush_caves_biome");
+    public static RegistryKey<Biome> TAR_PITS_BIOME = registerBiome("tar_pits_biome");
 
     public static RegistryKey<Biome> registerBiome(String biomeName) {
         Registration.BIOMES.register(biomeName, BiomeMaker::theVoidBiome);
@@ -20,5 +21,6 @@ public class ModBiomesDatapack {
 
     public static void register() {
         BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(LUSH_CAVES_BIOME, 10));
+        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(TAR_PITS_BIOME, 10));
     }
 }

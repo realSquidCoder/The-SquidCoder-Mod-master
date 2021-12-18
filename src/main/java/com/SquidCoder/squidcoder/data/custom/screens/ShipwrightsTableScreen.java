@@ -28,8 +28,8 @@ public class ShipwrightsTableScreen extends ContainerScreen<ShipwrightsTableCont
     protected void renderBg(MatrixStack matrixStack, float partialTicks, int x, int y) {
         RenderSystem.color4f(1f, 1f, 1f, 1f);
         this.minecraft.getTextureManager().bind(GUI);
-        int i = this.leftPos;
-        int j = this.topPos;
+        int i = (width - imageWidth) / 2;
+        int j = (height - imageHeight) / 2;
         this.blit(matrixStack, i, j, 0, 0, this.imageWidth, this.imageHeight);
 
 
@@ -39,5 +39,13 @@ public class ShipwrightsTableScreen extends ContainerScreen<ShipwrightsTableCont
             this.blit(matrixStack, i + 82, j + 9, 176, 0, 13, 17);
         }
         */
+    }
+
+    @Override
+    protected void renderLabels(MatrixStack stack, int i, int j) {
+        int inventoryLabelX = 8;
+        int inventoryLabelY = this.imageHeight - 94;
+        this.font.draw(stack, this.inventory.getDisplayName(), (float)inventoryLabelX, (float)inventoryLabelY, 4210752);
+        super.renderLabels(stack, i, j);
     }
 }
