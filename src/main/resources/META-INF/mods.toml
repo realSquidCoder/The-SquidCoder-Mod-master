@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[36,)"
 license="All rights reserved"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+issueTrackerURL="https://github.com/realSquidCoder/The-SquidCoder-Mod-master/issues"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]]
     # The modid of the mod
