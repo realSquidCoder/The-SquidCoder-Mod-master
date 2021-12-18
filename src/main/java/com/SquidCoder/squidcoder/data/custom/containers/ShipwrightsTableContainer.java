@@ -33,9 +33,11 @@ public class ShipwrightsTableContainer extends Container {
                 //addSlot(new SlotItemHandler(h, 0, 80, 31));
                 int xPos = 44;
                 int yPos = 18;
+                int index = 0;
                 for (int y=0;y<4;y++){
                     for (int x =0; x<5;x++){
-                        addSlot(new SlotItemHandler(h, 0, xPos+(x*18), yPos+(y*18)));
+                        addSlot(new SlotItemHandler(h, index, xPos+(x*18), yPos+(y*18)));
+                        index++;
                     }
                 }
             });

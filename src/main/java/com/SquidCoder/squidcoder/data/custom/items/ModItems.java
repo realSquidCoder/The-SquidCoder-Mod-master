@@ -40,8 +40,6 @@ public class ModItems {
                     super.appendHoverText(stack, worldIn, tooltip, flagIn);
                 }
             }*/);
-    public static final RegistryObject<Item> REDWOOD_BOAT = Registration.ITEMS.register("redwood_boat",
-            () -> new ModBoatItem(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD), "redwood"));
 
     public static final RegistryObject<Item> PROPELLER = Registration.ITEMS.register("propeller", () ->
             new Item(new Item.Properties().tab(ModItemGroup.SQUIDCODER_MOD)));

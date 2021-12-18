@@ -63,7 +63,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
         ShapedRecipeBuilder.shaped(ModItems.BLUEPRINT.get())
                 .define('#', Items.PAPER)
-                .define('o', Items.BLUE_DYE)
+                .define('o', Items.LIGHT_BLUE_DYE)
                 .pattern("###")
                 .pattern("#o#")
                 .pattern("###")

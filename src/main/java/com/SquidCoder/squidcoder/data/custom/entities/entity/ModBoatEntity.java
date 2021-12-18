@@ -7,6 +7,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.item.BoatEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.IPacket;
 import net.minecraft.network.datasync.DataParameter;
@@ -66,9 +67,9 @@ public class ModBoatEntity extends BoatEntity {
         public Item getDropItem() {
             switch(this.getWoodType()) {
                 case "redwood":
-                    return ModItems.REDWOOD_BOAT.get();
+                    return Items.OAK_BOAT;
                 default:
-                    return ModItems.REDWOOD_BOAT.get();
+                    return Items.OAK_BOAT;
             }
         }
 

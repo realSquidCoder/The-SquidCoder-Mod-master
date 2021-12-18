@@ -1,7 +1,20 @@
+
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "squidcoder:block/shipwrights_table",
+      "y": 90
+    },
+    "facing=north": {
       "model": "squidcoder:block/shipwrights_table"
+    },
+    "facing=south": {
+      "model": "squidcoder:block/shipwrights_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "squidcoder:block/shipwrights_table",
+      "y": 270
     }
   }
 }

@@ -57,7 +57,32 @@ public class ShipwrightsTableTile extends TileEntity implements ITickableTileEnt
 
             @Override
             public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-                return true;
+                switch (slot){
+                    case 2:
+                    case 7:
+                    case 12:
+                        return stack.getItem() == Items.OAK_LOG;
+                    case 3:
+                        return stack.getItem() == Items.WHITE_WOOL;
+                    case 5:
+                    case 10:
+                    case 14:
+                    case 16:
+                    case 17:
+                    case 18:
+                        return stack.getItem() == Items.OAK_PLANKS || stack.getItem() == Items.IRON_INGOT;
+                    case 11:
+                        return stack.getItem() == Items.FURNACE;
+                    case 6:
+                        return stack.getItem() == Items.CHEST;
+                    case 15:
+                        return stack.getItem() == ModItems.PROPELLER.get();
+                    case 13:
+                        return false;//stack.getItem() == ModItems.ANCHOR.get();
+
+                    default: return false;
+                }
+                //return true;
             }
 
             @Override
